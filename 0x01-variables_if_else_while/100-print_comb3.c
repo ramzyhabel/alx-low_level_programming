@@ -23,7 +23,7 @@ int main(void)
 				if (n1 != 8 || n2 != 9)
 				{
 					putchar(',');
-					putchr(32);
+					putchar(32);
 				{
 			}
 		n2++;
