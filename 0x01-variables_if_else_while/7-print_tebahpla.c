@@ -10,7 +10,7 @@ int main(void)
 {
 	char last_letter = 122;
 
-	while (last_letter <= 97)
+	while (last_letter >= 97)
 	{
 		putchar(last_letter);
 		last_letter--;
