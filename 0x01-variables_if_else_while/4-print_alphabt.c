@@ -16,4 +16,5 @@ int main(void)
 		first_letter++;
 	}
 	putchar('\n');
+	return (0);
 }
