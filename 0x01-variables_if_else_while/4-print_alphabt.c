@@ -12,11 +12,11 @@ int main(void)
 
 	while (first_letter <= 122)
 	{
-		putchar(first_letter);
 		if (first_letter == 101 || first_letter == 113)
 		{
 			first_letter++;
 		}
+		putchar(first_letter);
 		first_letter++;
 	}
 	putchar('\n');
