@@ -10,7 +10,7 @@ int main(void)
 {
 	char first_number = 48;
 
-	while (first_number >= 102)
+	while (first_number <= 102)
 	{
 		if (first_number == 58)
 		{
