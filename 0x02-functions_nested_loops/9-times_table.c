@@ -12,7 +12,7 @@ void times_table(void)
 	int n;
 	int r;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		_putchar(48);
 		for (n = 1; n <= 9; n++)
