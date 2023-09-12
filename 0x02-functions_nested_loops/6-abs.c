@@ -4,11 +4,11 @@
  *
  * Description: computes the absolute value of an integer
  *
- * @int: i/p
+ * @n: i/p
  *
  * Return: 0 (sucess)
 */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{
