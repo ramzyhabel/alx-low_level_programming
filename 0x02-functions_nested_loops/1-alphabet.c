@@ -1,13 +1,18 @@
 #include "main.h"
 /**
- * main - enty point
+ * print_alphabet - enty point
  *
  * Description: C program prints alphabet with print_alphabet function
  *
  * Return: Always 0 (success)
 */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int ch;
+
+	for (ch = 'a', ch <= 'z', ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
 }
