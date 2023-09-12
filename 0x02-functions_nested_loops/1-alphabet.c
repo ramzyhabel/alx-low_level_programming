@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - enty point
+ * print_alphabet - enty point
  *
  * Description: C program prints alphabet with print_alphabet function
  *
