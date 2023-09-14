@@ -18,9 +18,9 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (h = 0; h <= size; h++)
+		for (h = 1; h <= size; h++)
 		{
-			for (b = 0; b <= size; b++)
+			for (b = 1; b <= size; b++)
 			{
 				if ((h + b) <= size)
 				{
