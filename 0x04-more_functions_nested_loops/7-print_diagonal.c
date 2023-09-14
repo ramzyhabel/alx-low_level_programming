@@ -25,7 +25,11 @@ void print_diagonal(int n)
 				_putchar(' ');
 				_putchar(92);
 			}
+			if (p == (n - 1))
+			{
+			continue;
 			_putchar('\n');
+			}
 		}
 		_putchar('\n');
 	}
