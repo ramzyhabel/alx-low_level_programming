@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * fizz_buzz - enty point
+ * main - enty point
  *
  * Description: prints the numbers from 1 to 100, followed by a new line
  * But for multiples of three print Fizz instead of the number
@@ -10,7 +10,7 @@
  *
  * Return: void
 */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -38,4 +38,5 @@ void fizz_buzz(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
