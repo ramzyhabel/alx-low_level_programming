@@ -16,8 +16,12 @@ void print_line(int n)
 	{
 		for (l = n; l <= n; l++)
 		{
-			_putchar(95);
+			_putchar('_');
 		}
+		_putchar('\n');
 	}
+	else
+	{
 	_putchar('\n');
+	}
 }
