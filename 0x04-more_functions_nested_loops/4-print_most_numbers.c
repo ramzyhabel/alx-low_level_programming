@@ -14,7 +14,7 @@ void print_most_numbers(void)
 	{
 		if (ch == '2' || ch == '4')
 		{
-			ch = '127';
+			ch++;
 		}
 		else
 		{
